@@ -7,4 +7,11 @@
     <OldToolsVersion>2.0</OldToolsVersion>
     <UpgradeBackupLocation />
   </PropertyGroup>
+  <Target Name="timeStampDemo">
+    <PropertyGroup>
+      <CurrentDate>$([System.DateTime]::Now.ToString(yyyyMMdd-mmss))</CurrentDate>
+    </PropertyGroup>
+
+    <Message Text="CurrentDate: $(CurrentDate)"/>
+  </Target>
 </Project>
