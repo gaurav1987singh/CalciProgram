@@ -9,7 +9,7 @@
   </PropertyGroup>
   <Target Name="timeStampDemo">
     <PropertyGroup>
-      <CurrentDate>$([System.DateTime]::Now.ToString(yyyyMMdd-mmss))</CurrentDate>
+      <CurrentDate>$([System.DateTime]::Now.ToString(yyyyMMddmmss))</CurrentDate>
     </PropertyGroup>
 
     <Message Text="CurrentDate: $(CurrentDate)"/>
