@@ -6,6 +6,7 @@
     </FileUpgradeFlags>
     <OldToolsVersion>2.0</OldToolsVersion>
     <UpgradeBackupLocation />
+    <ProjectGuid>{aae3906f-80fd-4f8f-95c7-dd680d791ded}</ProjectGuid>
   </PropertyGroup>
   <Target Name="timeStampDemo">
     <PropertyGroup>
